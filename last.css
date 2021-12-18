@@ -1,0 +1,498 @@
+body{
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: auto;
+}
+.bgimage{
+    background-image: linear-gradient(rgba(0,0,1,0.9), rgba(8,8,8,0.9)), url('firstbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.nave{
+    width: 100%;
+    height: 7%;   
+}
+#right{
+    width: 30%;
+    margin-left: 5%;
+}
+#right ul{
+    font-weight: bold;
+    list-style: none;
+    text-transform: uppercase; 
+    margin-left: 10%;
+    margin-top: 7%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#right ul li{
+    color: #0970c4;
+    display: inline;
+    padding: 3px;
+    margin: 1px 1px;
+    text-shadow: 0.5px 0.5px 0.5px rgba(255, 255, 255, 0.568);
+}
+.nave img{
+    margin-left: 45%;
+    margin-top: -3%;
+}
+#left{
+    width: 30%;
+    margin-left: 70%;
+    margin-top: -6%;
+}
+#left ul{
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+    text-transform: uppercase;
+}
+#left ul li{
+    color: #6b8192;
+    display: inline;
+    padding: 2px;
+    text-shadow: 0.5px 0.5px 0.5px rgba(255, 255, 255, 0.568);
+}
+#pic{
+    width: 100%;
+    height: 100%;
+}
+#one{
+    width: 40%;
+    height: 60vh;
+}
+#one img{
+    width: 110%;
+    height: 60vh;
+    margin-top: 20%;
+    margin-left: 10%;
+}
+#tow{
+    width: 50%;
+    height: 60vh;
+    margin-left: 50%;
+}
+#tow h2{
+    margin-top: -45%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 7vh;
+    color: rgb(255, 149, 0);
+    text-shadow: 2px 2px 2px rgb(158, 16, 16);
+}
+#tow p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2vh;
+}
+#tow button{
+    width: 25%;
+    height: 6vh;
+    background-color: rgb(252, 144, 4);
+    font-weight: bold;
+    border-radius: 25px 50px ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#new{
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+#myone{
+    width: 50%;
+    height: 50%;
+}
+#myone img{
+    width: 75%;
+    height: 60vh;
+    margin-top: 15%;
+    margin-left: 15%;
+}
+#mytwo{
+    width: 40%;
+    height: 50%;
+    margin-left: 55%;
+    margin-top: -25%;
+}
+#mytwo h2{
+    color: rgba(173, 84, 84, 0.781);
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+#mytwo p{
+    color: white;
+}
+.secbg{
+    width: 100%;
+    height: 50%; 
+}
+.secbg{
+    background-image: url('line.png');
+    background-size: cover;
+    margin-top: 10%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30%;
+}
+#third img{
+    width: 25%;
+    height: 80vh;
+    margin-left: 76.2%;
+    margin-top: 5%;
+}
+#forth img{
+    width: 40%;
+    height: 100vh;
+    margin-left: 60%;
+    margin-top: 15%;
+}
+#fifth img{
+    width: 40%;
+    margin-top: 20%;
+    margin-left: -1%;
+}
+#food{
+    width: 30%;
+    height: 40%;
+    margin-top: -90%;
+    margin-left: 15%;
+}
+#food h3{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 5vh;
+    text-shadow: 2px 2px 2px rgb(8, 8, 8);
+}
+#food button{
+     width: 35%;
+     height: 5vh;
+     border-radius: 50px 15px;
+     background-color: transparent;
+     font-weight: bold;
+     box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+     color: rgb(0, 0, 0);
+}
+#seclast{
+    width: 100%;
+}
+#seclast h2{
+    color: rgba(0, 0, 0, 0.747);
+    font-weight: bold;
+    margin-left: 35%;
+    font-size: 7vh;
+    margin-top: 10%;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+}
+#firstpic img{
+     width: 30%;
+     margin-left: 4%;
+     margin-top: 5%;
+}
+#secpic img{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: -38%;
+}
+#thrdpic img{
+    width: 30%;
+    margin-left: 66%;
+    margin-top: -42%;
+}
+#forthpic img{
+    width: 30%;
+    margin-left: 66%;
+    margin-top: -2%;
+}
+#five img{
+    width: 30%;
+    margin-top: -38%;
+    margin-left: 35%;
+}
+#sixx img{
+    width: 30%;
+    margin-top: -42.5%;
+    margin-left: 4%;
+}
+.mainbox{
+    width: 100%;
+    height: 100%; 
+}
+.mainbox{
+    background-image: url('layer.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+#lorm{
+    width: 40%;
+    height: 100%;
+    margin-left: 30%;
+    border: 5px solid rgb(255, 174, 0);
+    margin-top: 5%;
+    background-color: rgba(0, 0, 0, 0.623);
+}
+#lorm h2{
+    color: rgba(255, 255, 255, 0.952);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px white;
+    text-align: center;
+}
+#lorm p{
+    color: white;
+    text-align: center;
+}
+#ending{
+    width: 100%;
+    height: 100%;
+}
+#ending h1{
+    color: rgba(0, 0, 0, 0.904);
+    margin-left: 40%;
+    margin-top: 5%;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 7vh;
+}
+#eight{
+    width: 30%;
+    height: 30%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+#eight img{
+    width: 95%;
+}
+#eight h2{
+    color: orange;
+    font-size: 3.5vh;
+}
+#eight p{
+    color: white;
+}
+#eight h3{
+    color: orange;
+    margin-top: -3%;
+}
+#nine{
+    width: 30%;
+    height: 30%;
+    margin-left: 37%;
+    margin-top: -41%;
+}
+#nine img{
+    width: 95%;
+}
+#nine h2{
+    color: orange;
+    font-size: 3.5vh;
+}
+#nine p{
+    color: white;
+}
+#nine h3{
+    color: orange;
+    margin-top: -4%;
+}
+#ten{
+    width: 30%;
+    height: 30%;
+    margin-left: 70%;
+    margin-top: -41%;
+}
+#ten img{
+    width: 95%;
+}
+#ten h2{
+    color: orange;
+    font-size: 3.5vh;
+}
+#ten p{
+    color: white;
+}
+#ten h3{
+    color: orange;
+    margin-top: -4%;
+}
+.favt{
+    width: 100%;
+    height: 40%;
+    margin-top: 10%;
+    background-color: orange;
+}
+#resv{
+    width: 40%;
+    height: 40%;
+    margin-left: 5%;
+}
+#resv img{
+   width: 90%;
+}
+#sett{
+    width: 40%;
+    height: 40%;
+    margin-left: 50%;
+    margin-top: -25%;
+}
+#lastele{
+    width: 100%;
+    background-image: url('Rectangle2.png');
+}
+#picture img{
+    width: 15%;
+    margin-left: 40%;
+    margin-top: 7%;
+}
+#writing ul{
+    font-weight: bold;
+    list-style: none;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 25%;
+    margin-top: 4%;
+}
+#writing ul li{
+    display: inline;
+    padding: 3px;
+}
+#lastele img{
+    margin-left: 40%;
+    margin-top: 2%;
+    width: 15%;
+}
+         /* tablet */
+
+@media screen and (width:768px){
+      #right{
+          width: 40%;
+          margin-top: 5%;
+      }
+      #right ul li{
+          font-size: 2vh;
+          margin-left: -15%;
+          padding: 8%;  
+      }
+      .nave img{
+          width: 12%;
+      }
+      #left{
+          width: 30%;
+      }
+      #left ul{
+          margin-left: -35%;
+          margin-top: -37%;
+      }
+      #left ul li{
+          font-size: 2vh;
+          margin-right: -10%;
+          padding: 7%;
+      }
+      #one img{
+          margin-top: 65%;
+          width: 100%;
+          height: 80%;
+      }
+      #tow h2{
+          color: rgba(19, 63, 99, 0.925);
+          text-shadow: 0.5px 0.5px 0.5px rgba(255, 255, 255, 0.678);
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      #tow button{
+          background-color: transparent;
+          color: rgb(255, 255, 255);
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-size: 2.5vh;
+          width: 30%;
+      }
+      #myone img{
+          margin-top: 30%;
+          border-radius: 20px 50px;
+          box-shadow: 0.5px 0.5px 0.5px white;
+      }
+     #mytwo{
+        margin-top: -40%;
+     }
+     #mytwo h2{
+         color: white;
+     }
+     .secbg{
+         width: 100%;
+         height: 50%;
+     }
+     #food{
+         margin-top: -130%;
+     }
+     #food button{
+         font-size: 2.5vh;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         width: 50%;
+     }
+     #third img{
+         height: 50%;
+     }
+     #fifth{
+         margin-top: -5%;
+     }
+     #forth{
+         margin-top: -5%;
+     }
+     #forth img{
+         width: 40%;
+     }
+     #seclast h2{
+         margin-top: 20%;
+         margin-left: 25%;
+         color: white;
+        font-family:  Georgia, 'Times New Roman', Times, serif;
+     }
+     #ending h1{
+         margin-left: 37%;
+         color: white;
+         font-family:  Georgia, 'Times New Roman', Times, serif;
+     }
+     #firstpic{
+         margin-top: 5%;
+     }
+     #secpic{
+         margin-top: -0.7%;
+     }
+     #thrdpic{
+         margin-top: -1.5%;
+     }
+     #five{
+         margin-top: -0.8%;
+     }
+     #sixx{
+         margin-top: -1.3%;
+     }
+     #nine{
+         margin-top: -60.6%;
+         margin-left: 37.5%;
+     }
+     #ten{
+         margin-top: -60.6%;
+     }
+     #sett{
+         margin-top: -30%;
+     }
+     #lastele{
+         background-image: url('Rectangle2.png');
+     }
+     #picture{
+         margin-left: -2%;
+     }
+     #picture img{
+         width: 30%;
+     }
+     #writing{
+         margin-right: 10%;
+         font-size: 2.4vh;
+     }
+     #lastele img{
+         width: 30%;
+         margin-left: 35%;
+     }
+} 
